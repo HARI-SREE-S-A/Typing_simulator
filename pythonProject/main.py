@@ -1,6 +1,7 @@
 import time
 import keyboard
 
+
 def simulate_typing_hindi(text):
     # Wait for 15 seconds before typing
     time.sleep(15)
