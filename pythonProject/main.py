@@ -9,7 +9,7 @@ def simulate_typing_hindi(text):
     # Simulate typing each character with a small delay
     for char in text:
         keyboard.write(char)
-        time.sleep(0.1)  # Adjust the delay as needed
+        time.sleep(0.2)  # Adjust the delay as needed
 
 if __name__ == "__main__":
     # Read input text from a file (input.txt) using utf-8 encoding
